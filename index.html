@@ -8,7 +8,7 @@
     <title>WebStudio</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -57,7 +57,7 @@
             <div class="container">
                 <ul class="advantages">
                     <li>
-                        <div class="backround-svg"><svg width="70px" height="70px">
+                        <div class="background-svg"><svg width="70px" height="70px">
                                 <use href="./img/symbol-defs.svg#vector"></use>
                             </svg></div>
                         <div class="advantages-card">
@@ -68,7 +68,7 @@
 
                     </li>
                     <li>
-                        <div class="backround-svg"><svg width="70px" height="70px">
+                        <div class="background-svg"><svg width="70px" height="70px">
                                 <use href="./img/symbol-defs.svg#hours"></use>
                             </svg></div>
                         <div class="advantages-card">
@@ -77,7 +77,7 @@
                                 кадрів тягне у себе.</p>
                         </div>
                     <li>
-                        <div class="backround-svg"><svg width="70px" height="70px">
+                        <div class="background-svg"><svg width="70px" height="70px">
                                 <use href="./img/symbol-defs.svg#laptope"></use>
                             </svg></div>
                         <div class="advantages-card">
@@ -87,7 +87,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="backround-svg">
+                        <div class="background-svg">
                             <svg width="70px" height="70px">
                                 <use href="./img/symbol-defs.svg#astronaut"></use>
                             </svg>
@@ -127,120 +127,130 @@
             </div>
         </section>
         <!--створив секцію наша команда-->
-        <div class="team">
-            <section class="section">
-                <div class="container">
-                    <h2 class="team-title">Наша команда</h2>
-                    <ul class="team-list">
-                        <li class="team-card">
-                            <img class="team-img" src="./img/img3.jpg" width="270" alt="молодий чоловік в окулярах">
-                            <div class="team-text">
-                                <h3 class="team-employee">Ігор Дем'яненко</h3>
-                                <p class="team-profession">Product Designer</p>
+        <section class="section team">
+            <div class="container">
+                <h2 class="team__title">Наша команда</h2>
+                <ul class="team__list">
+                    <li class="team__card">
+                        <img class="team__img" src="./img/img3.jpg" width="270" alt="молодий чоловік в окулярах">
+                        <div class="team__text">
+                            <h3 class="team__employee">Ігор Дем'яненко</h3>
+                            <p class="team__profession">Product Designer</p>
 
-                                <ul class="team-social">
-                                    <li><a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#instagram"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#twitter"></use>
-                                            </svg></a>
-                                    </li>
-                                    <li><a href=""><svg width="10px" height="20px">
-                                                <use href="./img/symbol-defs.svg#facebook"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#linkedin"></use>
-                                            </svg></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="team-card">
-                            <img class="team-img" src="./img/img4.jpg" width="270" alt="молода жінка в окулярах">
-                            <div class="team-text">
-                                <h3 class="team-employee">Ольга Рєпіна</h3>
-                                <p class="team-profession">Frontend Developer</p>
+                            <ul class="team__social">
+                                <li class="team__li"><a href="" class="team__link"><svg width="20px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg></a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="team__li"><a href="" class="team__link"><svg width="10px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg></a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="team__card">
+                        <img class="team__img" src="./img/img4.jpg" width="270" alt="молода жінка в окулярах">
+                        <div class="team__text">
+                            <h3 class="team__employee">Ольга Рєпіна</h3>
+                            <p class="team__profession">Frontend Developer</p>
 
-                                <ul class="team-social">
-                                    <li><a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#instagram"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#twitter"></use>
-                                            </svg></a>
-                                    </li>
-                                    <li><a href=""><svg width="10px" height="20px">
-                                                <use href="./img/symbol-defs.svg#facebook"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#linkedin"></use>
-                                            </svg></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="team-card">
-                            <img class="team-img" src="./img/img5.jpg" width="270" alt="молодий чоловік у рубашці ">
-                            <div class="team-text">
-                                <h3 class="team-employee">Микола Тарасов</h3>
-                                <p class="team-profession">Marketing</p>
+                            <ul class="team__social">
+                                <li class="team__li"><a href="" class="team__link"><svg width="20px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg></a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="team__li"><a href="" class="team__link"><svg width="10px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg></a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="team__card">
+                        <img class="team__img" src="./img/img5.jpg" width="270" alt="молодий чоловік у рубашці ">
+                        <div class="team__text">
+                            <h3 class="team__employee">Микола Тарасов</h3>
+                            <p class="team__profession">Marketing</p>
 
-                                <ul class="team-social">
-                                    <li><a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#instagram"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#twitter"></use>
-                                            </svg></a>
-                                    </li>
-                                    <li><a href=""><svg width="10px" height="20px">
-                                                <use href="./img/symbol-defs.svg#facebook"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#linkedin"></use>
-                                            </svg></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="team-card">
-                            <img class="team-img" src="./img/img6.jpg" width="270" alt="молодий чоловік у футболці">
-                            <div class="team-text">
-                                <h3 class="team-employee">Михайло Єрмаков</h3>
-                                <p class="team-profession">UI Designer</p>
+                            <ul class="team__social">
+                                <li class="team__li"><a href="" class="team__link"><svg width="20px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg></a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="team__li"><a href="" class="team__link"><svg width="10px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg></a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="team__card">
+                        <img class="team__img" src="./img/img6.jpg" width="270" alt="молодий чоловік у футболці">
+                        <div class="team__text">
+                            <h3 class="team__employee">Михайло Єрмаков</h3>
+                            <p class="team__profession">UI Designer</p>
 
 
-                                <ul class="team-social">
-                                    <li><a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#instagram"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#twitter"></use>
-                                            </svg></a>
-                                    </li>
-                                    <li><a href=""><svg width="10px" height="20px">
-                                                <use href="./img/symbol-defs.svg#facebook"></use>
-                                            </svg></a></li>
-                                    <li>
-                                        <a href=""><svg width="20px" height="20px">
-                                                <use href="./img/symbol-defs.svg#linkedin"></use>
-                                            </svg></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+                            <ul class="team__social">
+                                <li class="team__li"><a href="" class="team__link"><svg width="20px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg>
+                                    </a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="team__li"><a href="" class="team__link"><svg width="10px" height="20px"
+                                            class="team__svg">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg></a></li>
+                                <li class="team__li">
+                                    <a href="" class="team__link"><svg width="20px" height="20px" class="team__svg">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!--СЕКЦІЯ ПОСТІЙНІ КЛІЄНТИ-->
         <div class="container">
             <section class="customers-section">
                 <h2 class="customers-title">Постійні клієнти</h2>
