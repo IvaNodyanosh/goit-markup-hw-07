@@ -1,14 +1,4 @@
 @charset "UTF-8";
-:root {
-  --accent-color: #2196F3;
-  --primary-color: #212121;
-  --white-text: #FFFFFF;
-  --tetriary-color: #757575;
-  --secondary-color: rgba(255, 255, 255, 0.6);
-  --background: #2F303A;
-  --secondary-background: #F5F4FA;
-}
-
 body {
   background-color: white;
   font-family: Roboto, sans-serif;
@@ -45,6 +35,16 @@ ul,
 p {
   margin: 0px;
   padding: 0px;
+}
+
+:root {
+  --accent-color: #2196F3;
+  --primary-color: #212121;
+  --white-text: #FFFFFF;
+  --tetriary-color: #757575;
+  --secondary-color: rgba(255, 255, 255, 0.6);
+  --background: #2F303A;
+  --secondary-background: #F5F4FA;
 }
 
 @-webkit-keyframes modal {
@@ -1090,6 +1090,7 @@ header ul {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  margin-left: 24px;
 }
 .condition-link {
   color: var(--accent-color);
